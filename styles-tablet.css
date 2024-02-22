@@ -1,0 +1,27 @@
+/* Media query para tablets em mode retrato */
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Estilos para telas entre 601px e 900px */
+    
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#campo {
+        width: 100%;
+    }
+    
+    div#campo img {
+        width: 100%;
+    }
+
+    div#infos {
+        font-size: 1.6rem;
+    }
+
+    div#infos ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0.75rem 0;
+    }
+}

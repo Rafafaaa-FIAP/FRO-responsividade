@@ -1,27 +1,15 @@
-/* Media query para tablets em modo paissagem e desktops pequenos */
+
 @media (min-width: 901px) and (max-width: 1200px) {
-    /* Estilos para telas entre 901px e 1200px */
-    
     section {
-        display: flex;
+        background-color: #CCCCFF;
     }
 
-    div#campo {
-        width: 70%;
-    }
-
-    div#campo img {
-        width: 100%;
-    }
-
-    div#infos {
-        width: 30%;
-        font-size: 1rem;
-    }
-
-    div#infos ul {
-        display: flex;
-        gap: 0.75rem;
-        padding: 0.75rem;
+    section div {
+        width: 65%;
+        height: 75%;
+        padding: 1rem;
+        background-color: blue;
+        gap: 1.5rem;
+        font-size: 1.4rem;
     }
 }

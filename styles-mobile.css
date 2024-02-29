@@ -1,27 +1,14 @@
-/* Media query para smartphones */
+
 @media (max-width: 600px) {
-    /* Estilos para telas menores que 600px */
-    
     section {
-        display: flex;
-        flex-direction: column;
+        background-color: #FFCCCC;
     }
 
-    div#campo {
-        width: 100%;
-    }
-    
-    div#campo img {
-        width: 100%;
-    }
-
-    div#infos {
-        font-size: 1rem;
-    }
-
-    div#infos ul {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 0.75rem 0;
+    section div {
+        width: 90%;
+        padding: 1rem;
+        background-color: #FF0000;
+        gap: 1.5rem;
+        font-size: 1.25rem;
     }
 }

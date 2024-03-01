@@ -32,4 +32,9 @@ section div {
     transition: all 0.3s;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0.5rem 1.5rem;
+    overflow: scroll;
+}
+
+section div::-webkit-scrollbar {
+    width: 0;
 }

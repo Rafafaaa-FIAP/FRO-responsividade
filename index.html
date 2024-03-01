@@ -21,6 +21,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis vitae quia a ea delectus totam minus? Placeat illo id sint saepe optio praesentium in, velit debitis quas sit voluptates.</p>
         </div>
     </section>
-
+    <img src="./images/panda-400.png" alt="panda"
+        sizes="(max-width: 600) 90vw, 100vw"
+        srcset="
+        ./images/panda-400.png 400w
+        ./images/panda-800.png 800w
+        ./images/panda-1200.png 1200w"
+    >
+    <picture>
+        <source media="(max-width: 600px)" srcset="./images/panda-400.png">
+        <source media="(max-width: 1200px)" srcset="./images/panda-800.png">
+        <source media="(min-width: 1201px)" srcset="./images/panda-1200.png">
+        <img src="./images/panda-1200.png" alt="panda">
+    </picture>
 </body>
 </html>
